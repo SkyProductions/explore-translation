@@ -2,6 +2,10 @@
 {
     using FileExplorer.ViewModels.Interfaces;
 
+
+    /// <summary>
+    /// This is main view model
+    /// </summary>
     internal class MainViewModel : ViewModelBase, IMainViewModel
     {
         public MainViewModel(IFileSystemStructureViewModel fileSystemStructureViewModel, IFolderContentViewModel folderContentViewModel)
